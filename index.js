@@ -7,10 +7,10 @@ import {
   TextInput,
   Platform,
   ActivityIndicator,
-  AsyncStorage,
   FlatList
 } from "react-native";
 import emoji from "emoji-datasource";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const Categories = {
   all: {
@@ -201,8 +201,8 @@ export default class EmojiSelector extends Component {
 
   returnSectionData() {
     const { history, emojiList, searchQuery, category } = this.state;
-    let emojiData = (function() {
-        if (category === Categories.all && searchQuery === "") {
+    let emojiData = (function () {
+      if (category === Categories.all && searchQuery === "") {
         //TODO: OPTIMIZE THIS
         let largeList = [];
         categoryKeys.forEach(c => {
