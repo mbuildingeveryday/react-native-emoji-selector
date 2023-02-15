@@ -2,6 +2,8 @@
 
 ![Image preview](./assets/cover.png)
 
+change AsyncStorage to community one to resolve deprecating issue
+
 ## Installation
 
 ```
@@ -54,13 +56,3 @@ The available categories are `all`, `emotion`, `people`, `nature`, `food`, `acti
 | placeholder       | _string_ | `"Search..."` | A string placeholder when there is no text in text input |
 | shouldInclude     | _func_   |               | Function called to check for emoji inclusion             |
 
-## Contributors
-
-Special thanks to everyone who has contributed to this project!
-
-[![Victor K Varghese](https://avatars3.githubusercontent.com/u/15869386?s=80&v=4)](https://github.com/victorkvarghese)
-[![Kubo](https://avatars3.githubusercontent.com/u/22464192?s=80&v=4)](https://github.com/ma96o)
-[![Mateo Silguero](https://avatars3.githubusercontent.com/u/25598400?s=80&v=4)](https://github.com/mateosilguero)
-[![Anastasiia Kravchenko](https://avatars3.githubusercontent.com/u/4223266?s=80&v=4)](https://github.com/St1ma)
-[![Sindre](https://avatars3.githubusercontent.com/u/4065840?s=80&v=4)](https://github.com/sseppola)
-[![Lucas Feijo](https://avatars3.githubusercontent.com/u/4157166?s=80&v=4)](https://github.com/lucasfeijo)
